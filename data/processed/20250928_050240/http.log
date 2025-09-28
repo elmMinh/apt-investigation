@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2025-09-28-04-47-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	count	count	count	string	count	string	set[string]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1258731567.127023	Cy4MAe3gP8lqHjLb9f	192.168.1.100	49223	93.184.216.34	80	1	GET	example.com	/	-	1.1	Mozilla/5.0	0	125	200	OK	-	-	-	-	-	-	-	-	-	-	-	-
+1258731570.123456	Dd8krb4rGxRjHOYkC3	192.168.1.100	55333	93.184.216.34	80	1	POST	api.malicious.com	/upload	-	1.1	Malicious-Bot	1048576	200	200	OK	-	-	-	-	-	-	-	-	-	-	-	-

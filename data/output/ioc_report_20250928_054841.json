@@ -1,0 +1,12 @@
+{
+  "suspicious_ips": [
+    "192.168.1.100"
+  ],
+  "suspicious_domains": [
+    "malicious-domain-xyz.abc.com"
+  ],
+  "timeline_events": 1,
+  "beaconing_detected": 1,
+  "dns_tunneling_detected": 1,
+  "status": "DEMO DATA - System is working!"
+}

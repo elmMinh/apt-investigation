@@ -1,0 +1,2 @@
+source_ip,dest_ip,beacon_score,connection_count,status
+192.168.1.100,93.184.216.34,0.85,15,DEMO DATA - Ready for 50% Report

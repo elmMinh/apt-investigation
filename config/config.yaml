@@ -1,0 +1,31 @@
+# Cấu hình hệ thống
+settings:
+  log_level: "INFO"
+  max_file_size: "1GB"
+  output_format: ["csv", "json"]
+  whitelist_file: "config/whitelist.yaml"
+  
+# Ngưỡng phát hiện
+thresholds:
+  beaconing:
+    std_dev_max: 1.0
+    min_packets: 5
+    time_window: "3600s"
+    
+  dns_tunneling:
+    entropy_min: 4.5
+    query_length_min: 30
+    nxdomain_ratio_min: 0.3
+    
+  exfiltration:
+    post_size_threshold: 1048576
+    burst_threshold: 1000000
+
+# Visualization settings
+visualization:
+  theme: "plotly_white"
+  figure_width: 1200
+  figure_height: 800
+  dpi: 300
+  generate_html: true
+  generate_png: true

@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	software
+#open	2025-09-28-05-48-40
+#fields	ts	host	host_p	software_type	name	version.major	version.minor	version.minor2	version.minor3	version.addl	unparsed_version
+#types	time	addr	port	enum	string	count	count	count	count	string	string
+1481764648.290095	10.12.15.101	-	HTTP::BROWSER	MSIE	11	0	-	-	-	Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+1481764848.771957	10.12.15.101	-	HTTP::BROWSER	<unknown browser>	-	-	-	-	-	Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)
+#close	2025-09-28-05-48-40

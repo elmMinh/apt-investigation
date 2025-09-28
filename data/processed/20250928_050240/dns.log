@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2025-09-28-04-47-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1258731566.384539	CW32Gp1Jcm75uTlXTh	192.168.1.100	5353	224.0.0.251	5353	udp	0	google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	F	0	-	-	F
+1258731568.459812	Cc7kra3qFwQhGNZiB2	10.0.0.15	55332	8.8.8.8	53	udp	12345	suspicious-long-domain-abcdef1234567890-malicious.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	F	0	-	-	F
+1258731569.123456	Dd7lrb4sGxRhIOXjC3	10.0.0.15	55333	8.8.8.8	53	udp	12346	normal-domain.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	F	0	-	-	F
+1258731570.654321	Ee8msc5tHzSiJQYkD4	10.0.0.15	55334	8.8.8.8	53	udp	12347	another-suspicious-xyz1234567890abc.def.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	F	0	-	-	F

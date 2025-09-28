@@ -1,0 +1,9 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2025-09-28-04-47-59
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	bextracted
+#types	time	string	set[addr]	set[addr]	set[string]	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	string	string
+1258731570.123456	Ff1ntd6uIaTjKRAlE5	93.184.216.34	192.168.1.100	Cy4MAe3gP8lqHjLb9f	HTTP	1	MD5,SHA1	application/zip	suspicious_file.zip	0.125	T	-	1024000	1024000	0	0	F	-	abc123	def456	ghi789	/tmp/extracted/suspicious_file.zip	-
