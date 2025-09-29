@@ -1,17 +1,13 @@
 === BÁO CÁO PHÂN TÍCH APT ===
-Thời gian tạo: 2025-09-28 23:16:52
+Thời gian tạo: 2025-09-29 12:13:53
 
 📊 THỐNG KÊ TỔNG QUAN
 Tổng số sự kiện: 3
-Số phát hiện beaconing: 2
-Số phát hiện DNS tunneling: 1
+Số phát hiện beaconing: 1
+Số phát hiện DNS tunneling: 0
 
 🚨 TOP BEACONING ALERTS
-- 192.168.1.100 → 93.184.216.34:80 (Score: 0.85)
-- 10.0.0.15 → 8.8.8.8:53 (Score: 0.72)
-
-🔍 TOP DNS TUNNELING ALERTS
-- suspicious-long-domain-abcdef1234567890-malicious.com (Score: 0.75, Entropy: 5.20)
+- 172.16.0.130 → 185.141.27.187:80 (Score: 0.70)
 
 💡 KHUYẾN NGHỊ
 ✅ MỨC ĐỘ NGUY HIỂM: THẤP - Tình hình ổn định

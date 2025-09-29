@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2025-09-29-12-13-47
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	interval	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1493319804.555776	CzurU1EVJ8uICGhNe	192.168.37.1	5353	224.0.0.251	5353	udp	0	-	_googlecast._tcp.local	32769	qclass-32769	12	PTR	-	-	F	F	F	F	0	-	-	F
+1493319805.632240	CzurU1EVJ8uICGhNe	192.168.37.1	5353	224.0.0.251	5353	udp	0	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1493319808.712857	CzurU1EVJ8uICGhNe	192.168.37.1	5353	224.0.0.251	5353	udp	0	-	_googlecast._tcp.local	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+#close	2025-09-29-12-13-47

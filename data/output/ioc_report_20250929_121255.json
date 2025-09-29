@@ -1,0 +1,8 @@
+{
+  "suspicious_ips": [],
+  "suspicious_domains": [],
+  "suspicious_ports": [],
+  "timeline_events": 3,
+  "beaconing_detected": 0,
+  "dns_tunneling_detected": 0
+}

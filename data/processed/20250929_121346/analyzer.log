@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	analyzer
+#open	2025-09-29-12-13-47
+#fields	ts	analyzer_kind	analyzer_name	uid	fuid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	failure_reason	failure_data
+#types	time	string	string	string	string	addr	port	addr	port	enum	string	string
+1493319800.921648	protocol	HTTP	CnggwL3N0mrBr8rQ24	-	172.16.0.130	49344	185.141.27.187	80	tcp	not a http reply line	-
+1493319802.101864	protocol	HTTP	Ck7pIM1KVn2ENtCvZ7	-	172.16.0.130	49345	185.141.27.187	80	tcp	not a http reply line	-
+1493319803.150064	protocol	HTTP	CGysyU1Q7KkDy1sE6c	-	172.16.0.130	49346	185.141.27.187	80	tcp	not a http reply line	-
+#close	2025-09-29-12-13-47

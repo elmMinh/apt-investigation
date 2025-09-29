@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	smtp
+#open	2025-09-29-11-57-27
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	helo	mailfrom	rcptto	date	from	to	cc	reply_to	msg_id	in_reply_to	subject	x_originating_ip	first_received	second_received	last_reply	path	user_agent	tls	fuids	is_webmail
+#types	time	string	addr	port	addr	port	count	string	string	set[string]	string	string	set[string]	set[string]	string	string	string	string	addr	string	string	string	vector[addr]	string	bool	vector[string]	bool
+1485967236.149593	CXpHUU1dPpxZQnR9sl	10.2.1.101	49214	216.200.145.235	25	1	thomaskeller.com	gcromwell@thomaskeller.com	sales@externi.com	-	-	-	-	-	-	-	-	-	-	-	550 Recipient Rejected: No account by that name here	216.200.145.235,10.2.1.101	-	F	(empty)	F
+1485967236.427883	C7jDeg2hkJcIi0qsAi	10.2.1.101	49213	213.199.180.138	25	1	thomaskeller.com	gcromwell@thomaskeller.com	oh3fexq8.0463183@bonesupport.com	-	-	-	-	-	-	-	-	-	-	-	550 5.1.8 Access denied, bad outbound sender	213.199.180.138,10.2.1.101	-	F	(empty)	F
+1485967447.263120	Ces4lD15G29fv6K0q1	10.2.1.101	49873	213.199.154.23	25	1	thomaskeller.com	gcromwell@thomaskeller.com	ormesby_primary_school@redcar-cleveland.gov.uk	-	-	-	-	-	-	-	-	-	-	-	550 5.1.8 Access denied, bad outbound sender	213.199.154.23,10.2.1.101	-	F	(empty)	F
+1485967447.199157	C59L9j4emQv8coBir7	10.2.1.101	49869	213.199.180.170	25	1	thomaskeller.com	gcromwell@thomaskeller.com	frederic.convent@proxistore.com	-	-	-	-	-	-	-	-	-	-	-	550 5.1.8 Access denied, bad outbound sender	213.199.180.170,10.2.1.101	-	F	(empty)	F
+1485967447.457647	CS0bkt4vz1n1IDSJ58	10.2.1.101	49881	213.199.180.170	25	1	thomaskeller.com	gcromwell@thomaskeller.com	sales@newbase.com	-	-	-	-	-	-	-	-	-	-	-	550 5.1.8 Access denied, bad outbound sender	213.199.180.170,10.2.1.101	-	F	(empty)	F
+1485967657.407533	CHmQaS1LIQlECumZ01	10.2.1.101	50536	213.199.154.23	25	1	thomaskeller.com	gcromwell@thomaskeller.com	xulei@danfoss.com	-	-	-	-	-	-	-	-	-	-	-	550 5.1.8 Access denied, bad outbound sender	213.199.154.23,10.2.1.101	-	F	(empty)	F
+1485967658.783069	Cwix484M9Luw1OlnIg	10.2.1.101	50573	213.199.154.42	25	1	thomaskeller.com	gcromwell@thomaskeller.com	sqj@novozymes.com	-	-	-	-	-	-	-	-	-	-	-	550 5.1.8 Access denied, bad outbound sender	213.199.154.42,10.2.1.101	-	F	(empty)	F
+1485967664.782832	CXfUKP174xsXfsfX15	10.2.1.101	50595	213.199.154.23	25	1	thomaskeller.com	gcromwell@thomaskeller.com	admin.roundabout@btconnect.com	-	-	-	-	-	-	-	-	-	-	-	550 5.1.8 Access denied, bad outbound sender	213.199.154.23,10.2.1.101	-	F	(empty)	F
+#close	2025-09-29-11-57-28

@@ -1,0 +1,13 @@
+{
+  "suspicious_ips": [
+    "8.8.8.8",
+    "192.168.1.100"
+  ],
+  "suspicious_domains": [
+    "suspicious-long-domain-abcdef1234567890-malicious.com"
+  ],
+  "suspicious_ports": [],
+  "timeline_events": 3,
+  "beaconing_detected": 0,
+  "dns_tunneling_detected": 1
+}

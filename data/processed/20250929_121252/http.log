@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2025-09-29-12-12-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	version	user_agent	origin	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	tags	username	password	proxied	orig_fuids	orig_filenames	orig_mime_types	resp_fuids	resp_filenames	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	string	string	count	count	count	string	count	string	set[enum]	string	string	set[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1493319800.921648	CHyiH62OARPgKriQxa	172.16.0.130	49344	185.141.27.187	80	1	POST	185.141.27.187	/danielsden/ver.php	-	-	Mozilla/4.08 (Charon; Inferno)	-	0	0	-	-	-	-	(empty)	-	-	-	-	-	-	-	-	-
+1493319802.097025	C4eExH1rckluKotmRb	172.16.0.130	49345	185.141.27.187	80	1	POST	185.141.27.187	/danielsden/ver.php	-	-	Mozilla/4.08 (Charon; Inferno)	-	203	0	-	-	-	-	(empty)	-	-	-	FQXzu87eboSWXnlmk	-	-	-	-	-
+1493319803.145608	CTdi6c3jw64zj0WvP9	172.16.0.130	49346	185.141.27.187	80	1	POST	185.141.27.187	/danielsden/ver.php	-	-	Mozilla/4.08 (Charon; Inferno)	-	176	0	-	-	-	-	(empty)	-	-	-	F3Ed5v14wiufiKunya	-	-	-	-	-
+1493319838.196830	CMInfAjXLwangpvQc	172.16.0.130	49347	185.141.27.187	80	1	POST	185.141.27.187	/danielsden/ver.php	-	-	Mozilla/4.08 (Charon; Inferno)	-	449	0	-	-	-	-	(empty)	-	-	-	Fs0bSl4cTPItTsPQg1	-	-	-	-	-
+#close	2025-09-29-12-12-54

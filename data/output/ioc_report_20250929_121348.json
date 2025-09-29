@@ -1,0 +1,13 @@
+{
+  "suspicious_ips": [
+    "185.141.27.187",
+    "172.16.0.130"
+  ],
+  "suspicious_domains": [],
+  "suspicious_ports": [
+    "80"
+  ],
+  "timeline_events": 3,
+  "beaconing_detected": 1,
+  "dns_tunneling_detected": 0
+}

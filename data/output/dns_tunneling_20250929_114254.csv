@@ -1,0 +1,2 @@
+timestamp,query,entropy,length,subdomain_count,suspicion_score,src_ip,dst_ip
+1258731568.459812,suspicious-long-domain-abcdef1234567890-malicious.com,5.8,52,8,0.85,192.168.1.100,8.8.8.8
